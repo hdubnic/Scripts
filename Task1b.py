@@ -7,7 +7,7 @@ arcpy.env.workspace = 'V:/ENV859_PS4/Data'
 arcpy.env.overwriteOutput = True
 
 # Set local variables
-in_features = "V:/ENV859_PS4/Data/streams.shp"
+in_features = "streams.shp"
 out_feature_class = 'V:/ENV859_PS4/Scratch/StrmBuff1km.shp'
 buffDist = "1000 meters"
 
